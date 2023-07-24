@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-24T16:49:51 IST" name="Surefire suite" finished-at="2023-07-24T16:50:03 IST" duration-ms="12007">
+  <suite started-at="2023-07-24T20:02:02 IST" name="Surefire suite" finished-at="2023-07-24T20:02:23 IST" duration-ms="21707">
     <groups>
     </groups>
-    <test started-at="2023-07-24T16:49:51 IST" name="Surefire test" finished-at="2023-07-24T16:50:03 IST" duration-ms="12007">
+    <test started-at="2023-07-24T20:02:02 IST" name="Surefire test-0" finished-at="2023-07-24T20:02:22 IST" duration-ms="20738">
       <class name="prodTest">
-        <test-method signature="testPodcastsPage()[pri:0, instance:prodTest@4eaf3684]" started-at="2023-07-24T16:49:51 IST" name="testPodcastsPage" finished-at="2023-07-24T16:50:03 IST" duration-ms="11936" status="PASS">
+        <test-method signature="testPodcastsPage()[pri:0, instance:prodTest@1922e6d]" started-at="2023-07-24T20:02:02 IST" name="testPodcastsPage" finished-at="2023-07-24T20:02:19 IST" duration-ms="17581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPodcastsPage -->
       </class> <!-- prodTest -->
-    </test> <!-- Surefire test -->
+    </test> <!-- Surefire test-0 -->
+    <test started-at="2023-07-24T20:02:02 IST" name="Surefire test-1" finished-at="2023-07-24T20:02:23 IST" duration-ms="21707">
+      <class name="prodTest">
+        <test-method signature="testPodcastsPage()[pri:0, instance:prodTest@2fd1731c]" started-at="2023-07-24T20:02:02 IST" name="testPodcastsPage" finished-at="2023-07-24T20:02:20 IST" duration-ms="18599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPodcastsPage -->
+      </class> <!-- prodTest -->
+    </test> <!-- Surefire test-1 -->
   </suite> <!-- Surefire suite -->
 </testng-results>
